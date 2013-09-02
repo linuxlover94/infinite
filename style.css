@@ -1,0 +1,35 @@
+/*
+   style.css
+   IGI SlideShow
+   
+   Created by ved on 2013-08-18.
+   
+*/
+
+/* Basic Reset */
+
+body{
+	background-color:#333;
+}
+
+#carousel1{
+	margin:0 auto;
+	padding:0 20px;
+	width:400px;
+	height: 300px; 
+	overflow: scroll;
+	border:2px solid #999;
+}
+
+#carousel1 + div{
+	margin:0 auto;
+}
+
+.textholder{
+	text-align: left;
+	font-size:small;
+	padding:3px;
+	height:auto;
+	-moz-border-radius:6px 6px 0 0;
+	border-radius:6px 6px 0 0;
+}
